@@ -6,10 +6,23 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <form
+          className="App_form">
+          <div>
+            <input
+              type="text"
+              id="title"
+              placeholder="title"
+            />
+          </div>
+          <div>
+            <button type="submit">
+              投稿
+            </button>
+          </div>
+        </form>
         <div>
-          <ToDoList
-            title="ToDoリスト"
-          />
+          <ToDoList title="ToDoリスト" />
         </div>
       </div>
     );
