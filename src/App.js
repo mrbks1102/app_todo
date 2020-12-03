@@ -10,6 +10,7 @@ class App extends Component {
           className="App_form">
           <div>
             <input
+              type="text"
               id="title"
               placeholder="title"
             />
