@@ -9,6 +9,7 @@ class ToDoList extends Component {
       title
     } = this.props;
 
+    // ToDoリストのタイトルを表示
     return (
       <div className="ToDoList">
         <div className="ToDoList_title">{title}</div>
